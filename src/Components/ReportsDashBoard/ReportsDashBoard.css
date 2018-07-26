@@ -1,0 +1,35 @@
+.reports {
+    display: flex;
+    flex-direction: column;
+}
+.reportsTitle {
+    font-size: 2em;
+    font-weight: 200;
+}
+.reportsSearch {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-top: 44px;
+    justify-content: space-between;
+}
+.reportSearchBox {
+    width: 18%;
+}
+.reportsDashBoard {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-top: 30px;
+}
+#reportSearchId{
+    border-radius: 8px;
+    border:1px solid #69d0aa91;
+    width: 200px;
+    height: 34px;
+} 
+input::placeholder {
+    color: #59ad8e;
+    text-align: center;
+    font-size: 1em;
+}

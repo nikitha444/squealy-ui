@@ -1,0 +1,19 @@
+.chartsHeader {
+    display: flex;
+    flex-direction: row;
+    background-color: #00123a;
+    height: 70px;
+}
+.headerNavbar {
+    background-color: #00123a;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.headerNav {
+    width: 50%;
+}
+.logo {
+    height: 70px; 
+    background-color: white;
+}
